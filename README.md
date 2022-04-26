@@ -5,7 +5,7 @@
 ### Script GOFAST RageUI V2 0.00ms.
 > 
 > 
-<a href="https://youtu.be/4zdd4A85Clc">
+<a href="https://youtu.be/zSM2kZII9YM">
 <img alt="VIBE DEV" width="150px" src="https://cdn.discordapp.com/attachments/863444292579360799/909084091570343976/download_1.png" />
   
 • Vidéo de présentation

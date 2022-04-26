@@ -1,8 +1,8 @@
 <img alt="logo" width="150px" src="https://cdn.discordapp.com/attachments/664539748752293914/946115463123980288/Sans_titre.png" />
 
-# vWhiten
+# vGOFAST
 
-### Script Blanchisseur RageUI V2 0.00ms sous ESX-LEGACY.
+### Script GOFAST RageUI V2 0.00ms.
 > 
 > 
 <a href="https://youtu.be/4zdd4A85Clc">

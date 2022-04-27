@@ -17,7 +17,7 @@ AddEventHandler("KraKss:GoFastCDAdd", function()
      TriggerClientEvent("KraKss:GoFastCDcount", -1, count)
 end)
 
-RegisterServerEvent("Krakss:giveMoneyForDelivery")
+RegisterServerEvent("KraKss:giveMoneyForDelivery")
 AddEventHandler("KraKss:giveMoneyForDelivery", function(etat)
     local _src = source
     local xPlayer = ESX.GetPlayerFromId(_src)

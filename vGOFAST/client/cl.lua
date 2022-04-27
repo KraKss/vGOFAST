@@ -204,8 +204,6 @@ calculEtatVehicle = function()
     end    
 end
 
-AddEventHandler("onResourceStart", function()
-    if count == nil then 				
+AddEventHandler("onResourceStart", function()				
         count = 1	
-    end
 end)

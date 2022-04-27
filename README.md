@@ -27,3 +27,4 @@ Si tu veux plus d'informations n'hésite pas à passer sur mon **discord**.
 ``` 
 ensure vGOFAST
 ```
+### By KraKss#0667

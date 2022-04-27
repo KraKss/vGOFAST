@@ -6,7 +6,7 @@
 > 
 > 
 <a href="https://youtu.be/zSM2kZII9YM">
-<img alt="VIBE DEV" width="150px" src="https://cdn.discordapp.com/attachments/863444292579360799/909084091570343976/download_1.png" />
+<img alt="VIBE DEV" width="150px" src="https://pixabay.com/fr/illustrations/youtube-logo-ic%C3%B4ne-bouton-5702853/ />
   
 • Vidéo de présentation
 </a>

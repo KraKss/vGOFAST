@@ -126,8 +126,7 @@ Citizen.CreateThread(function()
                 if dist <= 1 then 
                     if IsControlJustPressed(1, 51) then 
                         FreezeEntityPosition(PlayerPedId(), true)                               
-                        openMenu()   
-                        print(count)                                                                                             
+                        openMenu()                                                                                             
                     elseif IsControlJustPressed(1, 177) then
                         FreezeEntityPosition(PlayerPedId(), false)                                             
                     end 

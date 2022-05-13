@@ -42,6 +42,7 @@ function openMenu()
                             if count > 0 then
                                 TriggerServerEvent("KraKss:GoFastCDAdd")
                                 local random = math.random(#Config.deliveryPoints)
+				local randomVeh = math.random(#Config.vehicles)
                                 for k, v in pairs(Config.deliveryPoints) do
                                     if random == k then 
                                         choosenPos = k                           
@@ -61,7 +62,7 @@ function openMenu()
                                         SetGpsMultiRouteRender(true)                                  
                                         if DoesBlipExist(blip) then                                                       
                                             local carCoords = vector4(1353.21, -2225.24, 60.59, 10.43)
-                                            local vehiclehash = GetHashKey("blista")
+                                            local vehiclehash = GetHashKey(randomVeh)
                                             RequestModel(vehiclehash)                                
                                             while not HasModelLoaded(vehiclehash) do
                                                 Citizen.Wait(100)
@@ -71,6 +72,7 @@ function openMenu()
                                             TaskWarpPedIntoVehicle(PlayerPedId(), veh, -1)
                                             SetVehicleEngineOn(veh, true, true, false) 	
                                             FreezeEntityPosition(PlayerPedId(), false)
+					    TriggerServerEvent("sendNotifToCops")
                                             mainMenu.Closed()     
                                             break                                                                          
                                         end                                                                 

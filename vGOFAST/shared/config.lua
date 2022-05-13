@@ -15,6 +15,13 @@ Config = {
         vector3(64.21, 3664.85, 39.72),
         vector3(-684.41, 5783.78, 17.33),
     },
+    vehicles = {
+        "blista",
+        "t20",
+        "adder",
+        "bestiagts",
+        "specter2",
+    },
     timeBetweenGoFast = 30, --minutes
     minMoney100 = 25000,
     maxMoney100 = 35000,

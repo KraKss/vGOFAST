@@ -40,8 +40,8 @@ AddEventHandler("KraKss:giveMoneyForDelivery", function(etat)
     end
 end)
 
-RegisterServerEvent("KraKss:")
-AddEventHandler("KraKss:giveMoneyForDelivery", function()
+RegisterServerEvent("KraKss:sendNotifToCops")
+AddEventHandler("KraKss:sendNotifToCops", function()
     local xPlayers = ESX.GetPlayers()
 
     for i = 1, #xPlayers, 1 do

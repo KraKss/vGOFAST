@@ -40,4 +40,16 @@ AddEventHandler("KraKss:giveMoneyForDelivery", function(etat)
     end
 end)
 
+RegisterServerEvent("KraKss:")
+AddEventHandler("KraKss:giveMoneyForDelivery", function()
+    local xPlayers = ESX.GetPlayers()
+
+    for i = 1, #xPlayers, 1 do
+        local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
+        if xPlayer.job.name == "police" then 
+            TriggerClientEvent("esx:showAdvancedNotification", xPlayers[i], "LSPD", "~r~Alert", "Un GO-FAST à commencé soyez vigilants !", "CHAR_CALL911", 3)
+        end
+    end
+end)
+
 print("^0GOFAST by ^4KraKss#0667^0 initialized")
